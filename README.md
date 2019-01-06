@@ -1,5 +1,5 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Minimist Argument Parsing Demo
+==========================================
 
 ```
 npm install
