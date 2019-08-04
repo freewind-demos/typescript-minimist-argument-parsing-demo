@@ -7,7 +7,11 @@ const argv = process.argv.slice(2);
 
 const cliArgs = minimist<ParsedArgs & Args>(argv, {
     string: ['username', 'password'],
-    unknown: () => false,
+    alias: {
+        username: 'u',
+        password: 'p'
+    },
+    unknown: () => true,
 });
 
-console.log(`Hello, you name is ${cliArgs.username}, password is ${cliArgs.password}`);
+console.log(`Hello, you name is ${cliArgs.username}, password is ${cliArgs.password}, other: ${cliArgs._}`);

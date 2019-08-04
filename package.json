@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts --username aaa --password 111"
+    "demo": "ts-node hello.ts --username aaa -p 111 otherthings"
   },
   "devDependencies": {
     "@types/minimist": "1.2.0",
