@@ -1,5 +1,4 @@
-import minimist from 'minimist';
-import {ParsedArgs} from 'minimist';
+import minimist, {ParsedArgs} from 'minimist';
 
 type Args = { username: string, password: string }
 
