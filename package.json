@@ -1,14 +1,14 @@
 {
-    "scripts": {
-        "start": "ts-node hello.ts --username aaa -p 111 otherthings"
-    },
-    "devDependencies": {
-        "@types/minimist": "1.2.0",
-        "@types/node": "10.12.18",
-        "ts-node": "7.0.1",
-        "typescript": "3.2.2"
-    },
-    "dependencies": {
-        "minimist": "1.2.0"
-    }
+  "scripts": {
+    "start": "ts-node hello.ts --username aaa -p 111 otherthings"
+  },
+  "devDependencies": {
+    "@types/minimist": "1.2.0",
+    "@types/node": "10.12.18",
+    "ts-node": "7.0.1",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "minimist": "1.2.0"
+  }
 }
